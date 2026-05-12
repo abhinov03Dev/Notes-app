@@ -1,15 +1,15 @@
 import React, { useMemo, useState } from "react";
 
 import {
-    FlatList,
-    SafeAreaView,
-    StyleSheet,
-    Switch,
-    Text,
-    TextInput,
-    useColorScheme,
-    useWindowDimensions,
-    View,
+  FlatList,
+  SafeAreaView,
+  StyleSheet,
+  Switch,
+  Text,
+  TextInput,
+  useColorScheme,
+  useWindowDimensions,
+  View,
 } from "react-native";
 
 import NoteCard from "../components/Notecard";
@@ -78,7 +78,15 @@ export default function NotesListScreen() {
           My Notes
         </Text>
 
-        <Switch value={darkMode} onValueChange={setDarkMode} />
+        <Switch
+          value={darkMode}
+          onValueChange={setDarkMode}
+          trackColor={{
+            false: "#D1D5DB",
+            true: "#6366F1",
+          }}
+          thumbColor={darkMode ? "#FFFFFF" : "#FFFFFF"}
+        />
       </View>
 
       {/* Search */}
