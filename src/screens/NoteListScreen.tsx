@@ -2,7 +2,6 @@ import React, { useMemo, useState } from "react";
 
 import {
   FlatList,
-  SafeAreaView,
   StyleSheet,
   Switch,
   Text,
@@ -11,6 +10,8 @@ import {
   useWindowDimensions,
   View,
 } from "react-native";
+
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import NoteCard from "../components/Notecard";
 
