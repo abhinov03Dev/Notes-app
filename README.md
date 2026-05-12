@@ -1,4 +1,51 @@
-# Welcome to your Expo app 👋
+# Welcome to my Notes app 👋
+
+# Notes App UI – React Native + Expo
+
+A clean and responsive Notes App UI built using React Native, Expo, and TypeScript.
+
+This project was created as a UI-focused assignment to demonstrate:
+
+- React Native core components
+- responsive mobile layouts
+- dark/light theme handling
+- input handling
+- reusable components
+- clean styling architecture
+
+---
+
+# Features
+
+## Notes Listing Screen
+
+- Display notes using `FlatList`
+- Search notes using `TextInput`
+- Responsive card layout
+- Dark/Light mode toggle
+- Scrollable notes list
+- Pressable note cards
+- Tablet responsive grid layout
+
+## Note Editor Screen
+
+- Title input field
+- Multiline note content editor
+- Keyboard-safe writing experience
+- Image header using `ImageBackground`
+- Save button
+- Back button
+- Comfortable long-form writing layout
+
+---
+
+# Tech Stack
+
+- React Native
+- Expo
+- TypeScript
+
+---
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
